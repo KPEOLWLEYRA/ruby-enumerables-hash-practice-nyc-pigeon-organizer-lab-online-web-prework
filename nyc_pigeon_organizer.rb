@@ -23,26 +23,48 @@ def nyc_pigeon_organizer(data)
   #puts new_hash
   #new_hash
   new_hash.each do |key, value|
-    puts "new hash key is #{key} value is #{value}"  
     value.each do |keya, valuea|
-      puts "value keya is #{keya} value valuea is #{valuea}"
       data.each do |key1, value1|
-        puts "data key1 is #{key1} value1 is #{value1}"
-        if key1 == keya 
-          value1.each do |key2, value2|
-            puts "value1 key2 is #{key2} and value2 is #{value2}"
-              if key == value2
-                valuea.push(key2)
-                puts valuea
+        if key1 == keya
+        value1.each do |key2, value2|
+          value2.each do |name|
+          if key == name
+            valuea<< name
+            valuea 
           end
+        end
         end
       end
     end
-  end 
-  puts new_hash 
+  end
   new_hash
 end 
-end
+            
+            #puts "value1 key2 is #{key2} and value2 is #{value2}"
+
+  
+  
+#   new_hash.each do |key, value|
+#     #puts "new hash key is #{key} value is #{value}"  
+#     value.each do |keya, valuea|
+#       #puts "value keya is #{keya} value valuea is #{valuea}"
+#       data.each do |key1, value1|
+#         #puts "data key1 is #{key1} value1 is #{value1}"
+#         if key1 == keya 
+#           value1.each do |key2, value2|
+#             #puts "value1 key2 is #{key2} and value2 is #{value2}"
+#               if key == value2
+#                 valuea.push(key2)
+#                 puts valuea
+#           end
+#         end
+#       end
+#     end
+#   end 
+#   puts new_hash 
+#   new_hash
+# end 
+# end
 
     # data[value1].each_value do |value2|
     #   puts "/ttvalue 2 is #{value2}" 
