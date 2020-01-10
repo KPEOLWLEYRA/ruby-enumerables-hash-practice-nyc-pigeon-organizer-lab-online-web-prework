@@ -20,17 +20,17 @@ def nyc_pigeon_organizer(data)
     :gender => [],
     :lives => []  
   }}
-  puts new_hash
+  #puts new_hash
   new_hash
   new_hash.each do |key, value|
    data.each do |key1, value1|
      value1.each do |key2, value2|
-      if new_hash[key] == value2
+      if key == value2
         puts value2
       end
     end
   end 
-  puts new_hash 
+  #puts new_hash 
   new_hash
 end 
 end
