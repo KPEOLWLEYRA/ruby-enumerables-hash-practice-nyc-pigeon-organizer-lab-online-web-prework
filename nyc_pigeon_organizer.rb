@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
   #   :lives => []
   # }
    
-  }
+  
   puts new_hash 
   new_hash
   new_hash.each do |i|
