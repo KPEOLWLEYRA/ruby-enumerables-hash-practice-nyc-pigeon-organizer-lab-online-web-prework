@@ -15,21 +15,19 @@ def nyc_pigeon_organizer(data)
     array.push(pigeon_female[i])
     i +=1 
   end
-  array.each {|i| new_hash[i] = {}}
+  array.each {|i| new_hash[i] = {
+    :color => [],
+    :gender => [],
+    :lives => []  
+  }}
   puts new_hash
   new_hash
-  #new_hash.each do |i, value|
   new_hash.each do |key, value|
    data.each do |key1, value1|
-     new_hash[value] = data[key1]
-    # puts new_hash
-    # data[value1].each do |value2, key2|
-    #     new_hash_array = []
-    #     new_hash[new_hash_key][key] = new_hash_array
-    #     if new_hash[new_hash_key] == data[value1][value2]
-    #       new_hash_array.push(data[value1])
-    #     end
-      # end
+     value1.each do |key2, value2|
+      if new_hash[key] == value2
+        puts value2
+      end
     end
   end 
   puts new_hash 
