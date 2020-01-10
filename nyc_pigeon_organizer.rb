@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
     i +=1 
   end
   array
-  # array.each {|i| new_hash[i] = nil
+  array.each {|i| new_hash[i] = nil
   #^create keys 
   # #{
   #   :color => [],
@@ -59,7 +59,7 @@ def nyc_pigeon_organizer(data)
     #     if j == new_hash[i]
     #       new_hash[i][:lives]<< j
 
-
+  puts new_hash
   new_hash
 end
 
