@@ -29,17 +29,17 @@ def nyc_pigeon_organizer(data)
           data_hoh_name_array.each do |name|
             if name == hash_name && data_hoh_key == new_inner_hash_key
               attribute = data_hoh_key.to_s
-              new_inner_hash_array << data_hoh_key
-          
+              new_inner_hash_array << attribute
+            end
           end
-        end
         end
       end
     end
   end
-end 
   new_hash
-end 
+end
+
+
             
             #puts "value1 key2 is #{key2} and value2 is #{value2}"
 
