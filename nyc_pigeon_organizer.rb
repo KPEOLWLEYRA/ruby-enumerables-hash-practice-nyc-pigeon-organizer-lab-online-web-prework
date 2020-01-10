@@ -30,12 +30,14 @@ def nyc_pigeon_organizer(data)
             if name == hash_name && data_hoh_key == new_inner_hash_key
               attribute = data_hoh_key.to_s
               new_inner_hash_array << attribute
+              puts new_inner_hash_array
             end
           end
         end
       end
     end
   end
+  puts new_hash
   new_hash
 end
 
