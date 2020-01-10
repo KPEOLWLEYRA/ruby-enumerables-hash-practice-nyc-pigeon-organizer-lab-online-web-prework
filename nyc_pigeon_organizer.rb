@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
         data_hash_inner_hash.each do |data_hoh_key, data_hoh_name_array|
           data_hoh_name_array.each do |name|
             hash_name_str = hash_name.to_s
-            if name == hash_name_str && data_hoh_key == new_inner_hash_key
+            if name == hash_name_str && data_key_hash1 == new_inner_hash_key
               attribute = data_hoh_key.to_s
               new_inner_hash_array << attribute
               puts new_inner_hash_array
