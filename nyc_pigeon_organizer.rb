@@ -21,10 +21,13 @@ def nyc_pigeon_organizer(data)
     :lives => []  
   }}
   #puts new_hash
-  new_hash
+  #new_hash
   new_hash.each do |key, value|
+    puts "new hash key is #{key} value is #{value}"  
    data.each do |key1, value1|
+     puts "data key1 is #{key1} value1 is #{value1}"
      value1.each do |key2, value2|
+       puts "value1 key2 is #{key2} and value2 is #{value2}"
       if key == value2
         puts value2
       end
