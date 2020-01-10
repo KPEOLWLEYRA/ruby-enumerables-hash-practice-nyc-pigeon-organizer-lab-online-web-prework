@@ -24,16 +24,20 @@ def nyc_pigeon_organizer(data)
   #new_hash
   new_hash.each do |key, value|
     puts "new hash key is #{key} value is #{value}"  
+    value.each do |keya, valuea|
    data.each do |key1, value1|
      puts "data key1 is #{key1} value1 is #{value1}"
-     value1.each do |key2, value2|
-       puts "value1 key2 is #{key2} and value2 is #{value2}"
-      if key == value2
-        puts value2
+     if key1 == keya 
+      value1.each do |key2, value2|
+        puts "value1 key2 is #{key2} and value2 is #{value2}"
+          if key == value2
+            valuea.push(key2)
+          end
+        end
       end
     end
   end 
-  #puts new_hash 
+  puts new_hash 
   new_hash
 end 
 end
