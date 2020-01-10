@@ -33,6 +33,7 @@ def nyc_pigeon_organizer(data)
   puts new_hash 
   new_hash
 end 
+end
 
     # data[value1].each_value do |value2|
     #   puts "/ttvalue 2 is #{value2}" 
