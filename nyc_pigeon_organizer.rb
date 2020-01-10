@@ -33,6 +33,7 @@ def nyc_pigeon_organizer(data)
             puts "value1 key2 is #{key2} and value2 is #{value2}"
               if key == value2
                 valuea.push(key2)
+                puts valuea
           end
         end
       end
