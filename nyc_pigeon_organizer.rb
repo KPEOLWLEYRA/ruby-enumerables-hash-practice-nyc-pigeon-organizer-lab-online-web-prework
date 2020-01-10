@@ -25,12 +25,11 @@ def nyc_pigeon_organizer(data)
   new_hash.each do |hash_name, hash_name_hash|
     hash_name_hash.each do |new_inner_hash_key, new_hash_inner_array|
       data.each do |data_key_hash1, data_hash_inner_hash|
-        if  == keya
-        value1.each do |key2, value2|
-          value2.each do |name|
-          if key == name
-            valuea<< name
-            valuea 
+        data_hash_inner_hash.each do |data_hoh_key, data_hoh_name_array|
+          data_hoh_name_array.each do |name|
+            if name == hash_name && data_hoh_key == new_inner_hash_key
+              new_inner_hash_key<<
+          
           end
         end
         end
