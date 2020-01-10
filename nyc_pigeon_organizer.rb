@@ -27,9 +27,9 @@ def nyc_pigeon_organizer(data)
     #     puts "/t/t/t value3 is #{value3}"
     #     data[value2].each do |value4, value5|
     #       puts "value 4 is #{value4} and value 5 is #{value5}"
-        end
-      end
-    end
+    #     end
+    #   end
+    # end
   end
 end 
 
