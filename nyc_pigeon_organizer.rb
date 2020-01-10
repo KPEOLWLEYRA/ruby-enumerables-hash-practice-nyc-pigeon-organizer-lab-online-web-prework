@@ -16,6 +16,8 @@ def nyc_pigeon_organizer(data)
     i +=1 
   end
   array.each {|i| new_hash[i] = nil}
+  puts new_hash
+  new_hash
 end 
   #^create keys 
   # #{
