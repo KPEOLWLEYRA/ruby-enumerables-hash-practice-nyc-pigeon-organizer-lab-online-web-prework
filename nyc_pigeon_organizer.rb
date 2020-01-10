@@ -19,8 +19,8 @@ def nyc_pigeon_organizer(data)
   puts new_hash
   new_hash
   #new_hash.each do |i, value|
-  data.each_value do |value1|
-    puts "/tvalue1 is  #{value1}"
+  data.each do |key, value1|
+    puts "/tvalue1 is  #{value1} key is #{key}"
     data[value1].each_value do |value2|
       puts "/ttvalue 2 is #{value2}" 
       data[value2].each_value do |value3|
