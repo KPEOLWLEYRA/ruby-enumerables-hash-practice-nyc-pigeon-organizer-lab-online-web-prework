@@ -15,8 +15,8 @@ def nyc_pigeon_organizer(data)
     array.push(pigeon_female[i])
     i +=1 
   end
-  array
-  array.each {|i| new_hash[i] = nil
+  array.each {|i| new_hash[i] = nil}
+end 
   #^create keys 
   # #{
   #   :color => [],
@@ -58,10 +58,6 @@ def nyc_pigeon_organizer(data)
     #   data[:lives][city].each do |j|
     #     if j == new_hash[i]
     #       new_hash[i][:lives]<< j
-
-  puts new_hash
-  new_hash
-end
 
 
 
