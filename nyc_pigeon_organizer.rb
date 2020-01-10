@@ -22,11 +22,7 @@ def nyc_pigeon_organizer(data)
   data.each_value do |value1|
     #puts "/tvalue1 is  #{value1}"
     data.each_value do |value2|
-      #puts "/ttvalue 2 is #{value2}" 
-      data.each_value do |value3|
-        #puts "/t/t/t value3 is #{value3}"
-        data.each do |value4, value5|
-          puts "value 4 is #{value4} and value 5 is #{value5}
+ 
         end
       end
     end
