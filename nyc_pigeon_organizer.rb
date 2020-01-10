@@ -21,12 +21,12 @@ def nyc_pigeon_organizer(data)
   #new_hash.each do |i, value|
   data.each do |key, value1|
     puts "/tvalue1 is  #{value1} key is #{key}"
-    data[value1].each_value do |value2|
-      puts "/ttvalue 2 is #{value2}" 
-      data[value2].each_value do |value3|
-        puts "/t/t/t value3 is #{value3}"
-        data[value2].each do |value4, value5|
-          puts "value 4 is #{value4} and value 5 is #{value5}"
+    # data[value1].each_value do |value2|
+    #   puts "/ttvalue 2 is #{value2}" 
+    #   data[value2].each_value do |value3|
+    #     puts "/t/t/t value3 is #{value3}"
+    #     data[value2].each do |value4, value5|
+    #       puts "value 4 is #{value4} and value 5 is #{value5}"
         end
       end
     end
