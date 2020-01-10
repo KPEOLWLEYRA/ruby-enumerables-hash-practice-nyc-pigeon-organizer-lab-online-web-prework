@@ -22,10 +22,10 @@ def nyc_pigeon_organizer(data)
   }}
   #puts new_hash
   #new_hash
-  new_hash.each do |key, value|
-    value.each do |keya, valuea|
-      data.each do |key1, value1|
-        if key1 == keya
+  new_hash.each do |hash_name, hash_name_hash|
+    hash_name_hash.each do |new_inner_hash_key, new_hash_inner_array|
+      data.each do |data_key_hash1, data_hash_inner_hash|
+        if  == keya
         value1.each do |key2, value2|
           value2.each do |name|
           if key == name
