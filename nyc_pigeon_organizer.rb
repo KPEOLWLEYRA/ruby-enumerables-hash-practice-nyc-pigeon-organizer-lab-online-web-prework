@@ -20,11 +20,11 @@ def nyc_pigeon_organizer(data)
   new_hash
   #new_hash.each do |i, value|
   data.each_value do |value1|
-    puts "/tvalue1 is  " + value1
+    puts "/tvalue1 is  #{value1}"
     data.each_value do |value2|
-      puts "/ttvalue 2 is "+ value2 
+      puts "/ttvalue 2 is #{value2}" 
       data.each_value do |value3|
-        puts "/t/t/t value3 is " + value3
+        puts "/t/t/t value3 is #{value3}"
       end
     end
   end
