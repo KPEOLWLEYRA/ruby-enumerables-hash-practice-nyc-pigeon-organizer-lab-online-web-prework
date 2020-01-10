@@ -46,15 +46,6 @@ end
 
 
 
-
-
-
-  #^create keys 
-  # #{
-  #   :color => [],
-  #   :gender => [],
-  #   :lives => []
-  # }
    
   
   # puts new_hash 
