@@ -25,24 +25,24 @@ def nyc_pigeon_organizer(data)
   # }
    
   
-  puts new_hash 
-  new_hash
-  new_hash.each do |i, value|
-    puts value
-    data.each_value do |value1|
-      puts value1
-        data[value1].each_value do |value2|
-          puts value2 
-        data[value2].each_value do |m|
-          puts m
-          if data[m] == new_hash[i]
-            new_hash[i] << data[m]
-          end
-        end
-      end
-    end
-    puts new_hash
-  end
+  # puts new_hash 
+  # new_hash
+  # new_hash.each do |i, value|
+  #   puts value
+  #   data.each_value do |value1|
+  #     puts value1
+  #       data[value1].each_value do |value2|
+  #         puts value2 
+  #       data[value2].each_value do |m|
+  #         puts m
+  #         if data[m] == new_hash[i]
+  #           new_hash[i] << data[m]
+  #         end
+  #       end
+  #     end
+  #   end
+  #   puts new_hash
+  # end
     # data[:color].each do |color|
     #   data[:color]
     #   if color_attr == new_hash[i]
