@@ -21,6 +21,10 @@ def nyc_pigeon_organizer(data)
   #new_hash.each do |i, value|
   data.each do |key, value1|
     puts "/tvalue1 is  #{value1} key is #{key}"
+    data[value1].each do |value2, key2|
+      new_hash.each do |new_hash_key, new_hash_value|
+        if new_hash[new_hash_key] == data[value1][value2]
+        new_hash[new_hash_key][key] = nil 
     # data[value1].each_value do |value2|
     #   puts "/ttvalue 2 is #{value2}" 
     #   data[value2].each_value do |value3|
