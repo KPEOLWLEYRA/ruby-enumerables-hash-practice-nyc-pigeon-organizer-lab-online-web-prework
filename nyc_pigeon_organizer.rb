@@ -18,7 +18,22 @@ def nyc_pigeon_organizer(data)
   array.each {|i| new_hash[i] = nil}
   puts new_hash
   new_hash
+  #new_hash.each do |i, value|
+  data.each_value do |value1|
+    puts value1
+    data.each_value do |value2|
+      puts value2 
+      data.each_value do |value3|
+        puts value3
+      end
+    end
+  end
 end 
+
+
+
+
+
   #^create keys 
   # #{
   #   :color => [],
